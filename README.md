@@ -163,3 +163,7 @@ B.Sc. Computer Science with Artificial Intelligence
 ## Project Objective
 
 Nova AI aims to provide a simple, fast, and student-friendly AI assistant that helps users with learning, programming, project development, and general knowledge through natural language interaction.
+
+## Project 
+https://chatbot-ke9q59fsvmehrnquweazu5.streamlit.app/
+
