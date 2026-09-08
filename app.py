@@ -3,7 +3,10 @@ import os
 from dotenv import load_dotenv
 from huggingface_hub import InferenceClient
 load_dotenv()
-HF_TOKEN = os.getenv("HF_TOKEN")
+if "HF_TOKEN" in st.secrets:
+    HF_TOKEN = st.secrets["HF_TOKEN"]
+else:
+    HF_TOKEN = os.getenv("HF_TOKEN")
 st.set_page_config(
     page_title="Nova AI",
     page_icon="🤖",
